@@ -28,7 +28,7 @@ const SignUpPage = () => {
 
     useEffect(()=> {
         if (count >= 1) {
-            fetch("http://localhost:8000/epicure/users", {
+            fetch("https://epicure-website.onrender/epicure/users", {
                 method: 'POST',
                 body: JSON.stringify(allUserInputs),
                 headers: {

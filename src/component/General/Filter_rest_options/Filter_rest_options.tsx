@@ -51,12 +51,12 @@ const handleAddRest = async (event:any) => {
     map:false
   })
   setCount(prevCount => prevCount + 1);
-  window.location.href = "http://localhost:3000/RestaurantsPage";
+  window.location.href = "https://epicure-website.onrender/epicure/RestaurantsPage";
 }
 
   useEffect(()=> {
     if (count >= 1) {
-      fetch("http://localhost:8000/epicure/restaurantsPage", {
+      fetch("https://epicure-website.onrender/epicure/restaurantsPage", {
         method: 'POST',
         body: JSON.stringify(addRestInputs),
         headers: {
