@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { IchefsValue } from "../../interfaces";
 
-const getChefsData = fetch("https://epicure-website.onrender/epicure/chefsPage")
+const getChefsData = fetch("https://epicure-website.onrender.com/epicure/chefsPage")
     .then((response) => response.json())
     .then((data) => {
       return data;

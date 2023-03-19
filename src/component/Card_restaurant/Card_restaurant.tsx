@@ -21,7 +21,7 @@ const handleDeleteRest = async (event:any) => {
     event.preventDefault()
     const clickedRestaurant = event.target.id      
     
-  fetch("https://epicure-website.onrender/epicure/restaurantsPage", {
+  fetch("https://epicure-website.onrender.com/epicure/restaurantsPage", {
       method: 'DELETE',
       headers: {
         'Content-Type': 'application/json'
@@ -34,7 +34,7 @@ const handleDeleteRest = async (event:any) => {
     })
     .catch(error => console.error(error));
 
-  fetch("https://epicure-website.onrender/epicure/dishesPage", {
+  fetch("https://epicure-website.onrender.com/epicure/dishesPage", {
       method: 'DELETE',
       headers: {
         'Content-Type': 'application/json'
