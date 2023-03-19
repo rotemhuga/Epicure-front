@@ -56,7 +56,7 @@ const handleAddRest = async (event:any) => {
 
   useEffect(()=> {
     if (count >= 1) {
-      fetch("https://epicure-website.onrender.com/epicure/restaurantsPage", {
+      fetch("https://epicure-website.onrender.com/epicure/RestaurantsPage", {
         method: 'POST',
         body: JSON.stringify(addRestInputs),
         headers: {
