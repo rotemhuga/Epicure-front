@@ -21,7 +21,7 @@ const handleDeleteRest = async (event:any) => {
     event.preventDefault()
     const clickedRestaurant = event.target.id      
     
-  fetch("https://epicure-website.onrender.com/epicure/restaurantsPage", {
+  fetch("https://epicure-website.onrender.com/epicure/RestaurantsPage", {
       method: 'DELETE',
       headers: {
         'Content-Type': 'application/json'
