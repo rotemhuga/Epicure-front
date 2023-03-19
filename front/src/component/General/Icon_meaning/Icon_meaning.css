@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica Neue Light;
+}
+
+#icon_meaning-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 25vh;
+    gap: 10%;
+    background: #FAFAFA;
+}
+
+#all-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20%;
+    font-size: 16px;
+    font-family: Helvetica Neue-Bold;
+}
+
+#icon_meaning-title{
+    margin-top: 2%;
+    font-size: 20px;
+}
+
+.icon-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.vegitarian {
+    display: flex;
+    justify-content: space-between;    
+}
+
+.vegan {
+    display: flex;
+    justify-content: space-between;    
+}
+
+.icon-img {
+    width: 50px;
+    height: 50px;
+}
+.vegitarian-icon-img {
+    display: flex;
+    width: 35px;
+    height: 35px;
+}
+
+.vegan-icon-img {
+    width: 35px;
+    height: 35px;
+}
+
+@media (min-width: 375px) and (max-width: 700px) {
+    #all-icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20%;
+        font-size: 16px;
+        font-family: Helvetica Neue-Bold;
+    
+    }
+
+    #icon_meaning-container {
+        flex-direction: column;
+        align-items: center;
+        height: 70vh;
+        gap: 10%;
+    }
+
+    #icon_meaning-title{
+        margin-top: 4%;
+        margin-left: 4%;
+        width: 100vw;
+    }
+
+    #all-icons{
+            flex-direction: column;
+            justify-content: center;
+            gap: 40px;
+        
+    }
+}

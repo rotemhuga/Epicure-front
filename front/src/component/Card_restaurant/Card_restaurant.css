@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.card-rest-div {
+    display: flex;
+    position: relative;
+    height: 350px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    cursor: pointer;
+    background: #F9F4EA;
+    height: 300px;
+    gap: 15px;
+}
+
+.close-button{
+    position: absolute;
+    color: black;
+    text-align: center;
+    background-color: rgb(212, 184, 184);
+    width: 30px;
+    height: 40px;
+    right: 0px;
+    color: white;
+    font-size: 25px;
+}
+
+.img-card{ 
+    display: flex;
+    justify-content: center;
+    width: 280px;
+    height: 173px;
+    object-fit:cover;
+}
+
+.name-popular-card {
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    font-family: Helvetica-Neu-Bold
+}
+
+.chef-popular-card {
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+}
+
+.rating-popular-card {
+    display: flex;
+    width: 180px;
+    height: 30px;
+}
+
+.rating-popular-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media (min-width: 375px) and (max-width: 700px) {
+
+    .rating-popular-card {
+        display: none;
+    }
+
+    .chef-popular-card {
+        display: flex;
+        justify-content: start;
+        margin-left: 5%;
+        font-Size:14px;
+        line-height: 21.47px;
+        letter-spacing: 2.67px;
+    }
+
+    .name-popular-card {
+        display: flex;
+        justify-content: start;
+        font-size: 20px;
+        line-height: 21.47px;
+        letter-spacing: 2.67px;
+        font-family: Helvetica-Neu-Bold;
+        margin-left: 5%;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        width: 280px;
+        cursor: pointer;
+        background: #F9F4EA;
+        height: 250px;
+        gap: 15px;
+    }
+}
+

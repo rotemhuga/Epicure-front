@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.all-dish-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 30px;
+    height: 80vh;
+}
+
+.all-dish-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2%;
+}
+
+.popular-dish-title {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    
+}
+
+@media (min-width: 375px) and (max-width: 700px) {
+    .all-dish-container{
+        overflow: auto;
+        padding: 14px;
+        text-decoration: none;
+        gap:20px;
+
+    }
+
+    .all-dish-card {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 8%;
+    }
+
+    .popular-dish-title {
+        display: flex;
+        justify-content: start;
+        margin-left: 2%;
+        font-size: 20px;
+    }
+}

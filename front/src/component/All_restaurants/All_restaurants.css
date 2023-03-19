@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.rest-page {
+    display: flex;
+    justify-content: center;
+    height: 1650px;
+}
+
+#all-rest-page-container {  
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto auto auto auto ;
+    margin-top: 2%;
+    gap: 2%;
+
+}
+
+#rest-card {
+    width: 150px;
+    height: 1000px;
+}
+
+@media (min-width: 375px) and (max-width: 700px) {
+    .rest-page {
+        display: flex;
+        justify-content: start;
+        gap: 20%;
+        height: auto;
+    }
+    
+    #all-rest-page-container {  
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        margin-left: 10%;
+        gap: 20%;
+    }
+
+}

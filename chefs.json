@@ -1,0 +1,94 @@
+ [
+      {
+        "id": "1",
+        "name": "Asaf Granit",
+        "info": "Assaf Granit's lectures touch not only the world of restaurateurs, food research and the integration of cultures, but also the world business and entrepreneurship in general. choose a lecture or a workshop to fit your team.",
+        "portrait": "asaf-granit-1",
+        "restaurants": ["10"],
+        "isChefOfTheWeek": false,
+        "isNew": false,
+        "mostViewed": true
+      },
+      {
+        "id": "2",
+        "name": "Aviv Moshe",
+        "info": "Chef Aviv Moshe, 45, has been cooking since the age of 16 and has been able to cook for many of the world's most important people",
+        "portrait": "aviv-moshe-2",
+        "restaurants": ["8"],
+        "isChefOfTheWeek": false,
+        "isNew": false,
+        "mostViewed": true
+      },
+      {
+        "id": "3",
+        "name": "Eyal Shani",
+        "info": "Celebrating the riches of the Mediterranean land and sea, HASALON brings together Chef Eyal Shani's distinctive culinary creativity and the finest international cuisines. Using pure ingredients of exceptional quality, sourced locally wherever possible, this fun and energetic dining experience reflects the spirit and tastes of both its origins in Tel Aviv with the vibrancy of the destination.",
+        "portrait": "eyal-shani-3",
+        "restaurants": ["11"],
+        "isChefOfTheWeek": false,
+        "isNew": true,
+        "mostViewed": true
+      },
+      {
+        "id": "4",
+        "name": "Meir Adoni",
+        "info": "As a chef, the first thing He bring to the table is tradition. He respect the original flavors and ingredients. Only then do He ad His crazy interpretation, launching the dish off to new and uncharted territory.",
+        "portrait": "meir-adoni-4",
+        "restaurants": ["2"],
+        "isChefOfTheWeek": false,
+        "isNew": true,
+        "mostViewed": false
+      },
+      {
+        "id": "5",
+        "name": "Omer Miller",
+        "info": "In recent years, chef Omer Miller became a synonym for modern culinary experiences, innovative and interesting.The man who turned an hamburger into a culinary masterpiece and brought some chutzpah into the restaurant field, something daring and different..",
+        "portrait": "omer-miller-5",
+        "restaurants": ["12"],
+        "isChefOfTheWeek": false,
+        "isNew": false,
+        "mostViewed": true
+      },
+      {
+        "id": "6",
+        "name": "Shahaf Shabtay",
+        "info": "Celebrity chef Yonatan Roshfeld, owner of the Herbert Samuel restaurant at the Ritz Carlton Herzliya, has recently opened a kosher restaurant in Northern Israel near the base of Har Hermon, near the Hermon ski resort and Syrian border. The restaurant is called Roshfeld, paying homage to himself.",
+        "portrait": "shahaf-shabtay-6",
+        "restaurants": ["14"],
+        "isChefOfTheWeek": false,
+        "isNew": true,
+        "mostViewed": false
+      },
+      {
+        "id": "7",
+        "name": "Nitzan Raz",
+        "info": "Chef Nitzan Raz started his career in the field of culinary right after he was released from one of IDF's most prestigious units. After a debut at the Chimichanga restaurant in Tel Aviv, he moved to New York where he studied at the French Culinary Institute",
+        "portrait": "nitzan-raz-7",
+        "restaurants": ["13"],
+        "isChefOfTheWeek": false,
+        "isNew": false,
+        "mostViewed": false
+      },
+      {
+        "id": "8",
+        "firstName": "Yossi",
+        "name": "Yossi Shitrit",
+        "info": "Chef Yossi Shitrit has been living and breathing his culinary dreams for more than two decades, including running the kitchen in his first restaurant, the fondly-remembered Violet, located in Moshav  Udim. Shitrit's creativity and culinary  acumen born of long experience  are expressed in the every detail of each and every dish.",
+        "portrait": "yossi-shitrit-8",
+        "restaurants": ["4","5", "6"],
+        "isChefOfTheWeek": true,
+        "isNew": false,
+        "mostViewed": false
+      },
+      {
+        "id": "9",
+        "name": "Yuval Ben Neriah",
+        "info": "At a, Chef Yuval Ben Neriah realizes his vision to combine elements primal and advanced, Primal and prime ancient and modern, earthy and refined. To experience his culinary ideals and explore the possibilities. ",
+        "portrait": "yuval-ben-neriah-9",
+        "restaurants": ["14"],
+        "isChefOfTheWeek": false,
+        "isNew": false,
+        "mostViewed": false
+      }
+    ]
+  

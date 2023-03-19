@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.all-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    gap: 3%;
+}
+
+#clicked {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+    font-family: Helvetica-Neu-Bold;
+}
+
+#clicked-map-view{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+    font-family: Helvetica-Neu-Bold;
+}
+
+#not-clicked {
+    all:unset;
+    cursor: pointer;
+}
+
+@media (min-width: 375px) and (max-width: 700px) {
+    #clicked {
+        border-bottom: 1.8px solid rgba(222, 146, 0, 0.9);
+    }
+
+    #clicked-map-view{
+        display: none;
+    }
+
+    #not-clicked-map-view{
+        display: none;
+    }
+}

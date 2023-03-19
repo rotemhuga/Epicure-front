@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.sign-in-title {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 2.67px;
+    margin-bottom: 14px;
+    margin-top: 40px;
+}
+
+.sign-in-sub-title{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 1.97px;
+    margin-bottom: 74px;
+}
+
+.names-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%;
+}
+
+.first-name-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-first-name{
+    display: flex;
+    justify-content: center;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid black;
+    font-size: 1.4rem;
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 1.97px;
+    width: 100%;
+}
+
+.last-name-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-last-name{
+    display: flex;
+    justify-content: center;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid black;
+    font-size: 1.4rem;
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 1.97px;
+    width: 100%;
+}
+
+.user-password .user-email{
+    display: flex;
+    justify-content: center;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid black;
+    font-size: 1.4rem;
+}
+
+.email-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 1.97px;
+    margin-bottom: 40px;
+}
+
+.address-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-address{
+    display: flex;
+    justify-content: center;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid black;
+    font-size: 1.4rem;
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 1.97px;
+    width: 40%;
+}
+
+.password-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.user-password {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 1.97px;
+    width: 40%;
+}
+
+.password-confirm-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.sign-up-container{
+    display: flex;
+    justify-content: center;
+}
+
+.sign-up-button{
+    border: 1px solid black;
+    width: 206px;
+    height: 48px;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 2.67px;
+    text-align: center;
+}

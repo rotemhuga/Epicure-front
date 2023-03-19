@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.all-buttons-one-rest {
+    display: flex;
+    justify-content: center; 
+    gap: 5%;
+}
+
+.button-all {
+ cursor: pointer;   
+}
+
+.all-one-rest-dishes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2%;
+    max-width: 1000px;
+    gap: 3%;
+}
+

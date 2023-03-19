@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#week-chef-container {
+    position: relative;
+
+}
+
+.card-week-chef {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    position: absolute;
+    top: 15%;
+    left: 256px;
+    transform: translateY(-50%);
+}
+
+.img-week-chef-card {
+    width: 25vw;
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+}
+
+.name-week-chef-card{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    align-items: center;    
+    justify-content: center; 
+    width: 25vw;
+    height: 5vh;
+    background: rgba(255, 255, 255, 0.8);
+    font-size: 25px;
+    font-family: Helvetica Neue Bold;
+}
+
+.week-chef-details{
+    display: flex;
+    flex-direction: column;
+}
+
+.info-week-chef-card{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    width: 600px;
+    line-height: 40px;
+    letter-spacing: 1.25px;
+    font-size: 20px;
+    top: 33%;
+    right: 256px;
+    transform: translateY(-50%);
+}
+
+.rest-title-week-chef-card {
+    font-size: 24px;
+    position: absolute;
+    top: 62vh;
+    left: 256px;
+}
+
+.all-rest-week-chef{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 68vh;
+    left: 256px;
+    gap: 2%;
+}
+
+.rest-img{
+    width: 150px;
+}
+
+.rest-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center;
+    text-align: center;   
+    cursor: pointer;
+    width: 150px;
+    height: 230px;
+    background: #F9F4EA;
+}
+
+.rest-week {
+    display: flex;
+    justify-content: center;
+    text-align: center;    
+    font-weight: 400;
+    font-size: 22px;
+    margin-bottom: 25%;
+}
+
+@media (min-width: 375px) and (max-width: 700px) {
+
+    #week-chef-container {
+        display: flex;
+        flex-direction: column;
+        height: 1100px;
+    }
+    
+    .card-week-chef {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        position: absolute;
+        top: 10%;
+        left: 50px;
+        transform: translateY(-50%);
+    }
+
+    .img-week-chef-card {
+        width: 70vw;
+    }
+
+    .info-week-chef-card{
+        width: 280px;
+        line-height: 28px;
+        letter-spacing: 1px;
+        font-size: 16px;
+        top: 48%;
+        left: 50px;
+    }
+
+    .all-rest-week-chef{
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: 70%;
+        left: 50px;
+        gap: 2%;
+        overflow: auto;
+        white-space: nowrap;
+        width: 280px;
+    }
+
+    .rest-title-week-chef-card {
+        font-size: 24px;
+        position: absolute;
+        top: 65%;
+        left: 50px;
+    }
+
+    #epicure-logo {
+        right:50px;
+    }
+
+}

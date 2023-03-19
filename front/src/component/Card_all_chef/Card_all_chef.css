@@ -1,0 +1,21 @@
+.close-button-chef {
+    position: absolute;
+    background-color: rgb(212, 184, 184);
+    width: 30px;
+    height: 40px;
+    right: 10px;
+    text-align: center;
+    top: 10px;
+    color: white;
+    font-size: 25px;
+}
+
+.chef-card-div{
+    position: relative;
+}
+
+.alert {
+    padding: 20px;
+    background-color: #407088;
+    color: white;
+}

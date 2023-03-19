@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.one-rest-details-all {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.one-rest-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20%;
+}
+
+.img-one-rest {
+    object-fit: contain;
+    margin-bottom: 32px;
+}
+
+.name-rest-details-card{
+    font-size: 40px;
+    font-family: Helvetica-Neu-Bold;
+    margin-bottom: 4px;
+}
+
+.chef-rest-details-card {
+    font-size: 20px;
+    margin-bottom: 32px;
+}
+
+.open-rest-details-card {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 48px;
+}
+
+.all-buttons-one-rest {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    margin-bottom: 47px;
+    font-size: 20px;
+    line-height: 29.02px;
+    letter-spacing: 1.92px;
+}
+
+.clicked {
+    cursor: pointer;
+    border-bottom: 1.8px solid rgba(222, 146, 0, 0.9);
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+.not-clicked {
+    all:unset;
+    cursor: pointer;
+}
+
+.all-dish-cards {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    grid-template-columns: auto auto auto auto;
+    gap: 2%;
+}
+
+.single-rest-card-dish {
+    min-height: 25vw;
+    max-height: 50vw;
+    height: 30vw;
+}
+
+.img-card-dish{
+    width: 100%;
+    height: 20vh;
+    object-fit: cover;
+}
+
+.ingredients-card-dish {
+    font-size: 18px;
+    letter-spacing: 1.97px;
+    width: 200px;
+    line-height: 24px;
+}
+
+/* Modal */
+.single-rest-dish-modal {
+    width: 100;
+}
+
+@media (min-width: 375px) and (max-width: 700px) {
+
+    .one-rest-details-all {
+        justify-content: start;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    
+    .one-rest-details-container {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 20%;
+    }
+
+    .img-one-rest {
+        object-fit: contain;
+        width: 100%;
+        margin-bottom: 32px;
+    }
+
+    .name-rest-details-card{
+        margin-left: 5%;
+        margin-bottom: 16px;
+        font-size: 18px;
+        line-height: 21.47px;
+        letter-spacing: 1.5px;
+    }
+
+    .chef-rest-details-card {
+        margin-left: 5%;
+        font-size: 16px;
+        line-height: 21.47px;
+        letter-spacing: 1.5px;
+        margin-bottom: 16px;
+    }
+    
+    .open-rest-details-card {
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 32px;
+        margin-left: 5%;
+        font-size: 18px;
+    }
+
+    .all-buttons-one-rest{
+        margin-left: 5%;
+        margin-bottom: 24px;
+    }
+
+    .clicked{
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .all-dish-cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .single-rest-card-dish {
+        gap: 10px;
+        width: 335px;
+        min-height: 25vw;
+        max-height: 70vh;
+        height: 80vw;
+    }
+
+    .card-dish {
+        align-items: start;
+    }
+
+    .up-part-card-dish {
+        justify-content: start;
+        align-items: start;
+    }
+
+    .ingredients-card-dish {
+        font-size: 14px;
+        letter-spacing: 1.97px;
+        width: 270px;
+        line-height: 24px;
+        margin-left: 20px;
+    }
+}

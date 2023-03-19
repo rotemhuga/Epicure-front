@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#about-us-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    width: 100vw;
+    height: 60vh;
+    background: #FAFAFA;
+}
+
+#about-us-left{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 256px;
+    transform: translateY(-50%);
+    width: 40vw;
+    gap: 14px;
+}
+
+#about-us-title {
+    font-size: 22px;
+}
+
+#about-us-content {
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    width: 450px;
+}
+
+#about-us-right{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50vh;
+    width: 40vw;
+    height: 40vh;
+}
+
+#download-apps {
+    display: flex;
+    gap: 2%;
+}
+
+#download-app-store {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.app-store-img {
+    display: flex;
+}
+
+#download-google-play {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+#epicure-logo {
+    position: absolute;
+    top: 50%;
+    right: 256px;
+    transform: translateY(-50%);
+}
+
+@media (min-width: 375px) and (max-width: 700px) {
+    
+    #about-us-container{
+        flex-direction: column;
+        height: 700px;
+        position: relative;
+    }
+    
+    #epicure-logo {
+        position: absolute;
+        top: 8%;
+        left: 20px;
+        transform: translateY(-50%);
+        width: 20%;
+    }
+    
+    #about-us-left{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+    }
+    
+    #download-apps {
+        flex-direction: column-reverse;
+        position: absolute;
+        top: 22%;
+        left: 20px;
+        transform: translateY(-50%);
+        gap: 20%;
+        height: 80px;
+    }
+
+    .app-store-img {
+        display: flex;
+    }
+
+    #about-us-title{
+        font-size: 16px;
+        position: absolute;
+        top: 38%;
+        left: 20px;
+        transform: translateY(-50%);
+    }
+
+    #about-us-content {
+        line-height: 30px;
+        letter-spacing: 1.5px;
+        width: 70vw;
+        position: absolute;
+        top: 72%;
+        left: 20px;
+        transform: translateY(-50%);
+    }
+}
