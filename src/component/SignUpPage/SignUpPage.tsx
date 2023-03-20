@@ -5,6 +5,7 @@ import Navbar from "../navbar/all_navbar/navbar";
 
 
 const SignUpPage = () => {
+
     const [count, setCount] = useState(0)
     const [allUserInputs, setAllUserInputs] = useState({
         firstName: "",
@@ -79,7 +80,7 @@ const SignUpPage = () => {
                     </div>
                 </div>
                 <div className="sign-up-container">
-                    <button type="submit" className="sign-up-button">SIGN UP</button>
+                    <button type="submit" className="sign-up-button" >SIGN UP</button>
                 </div>
             </form>
         </>
