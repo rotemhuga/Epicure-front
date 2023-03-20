@@ -25,7 +25,6 @@ export const dishesSlice = createSlice({
         case "all":
           state.value = action.payload.data;
           state.valueRestDishes =  action.payload.data;
-          state.valueRestDishes = action.payload.data;
           break;
         case "breakfast":
           console.log(action.payload.data)

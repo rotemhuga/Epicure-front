@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Card_restaurant.css"
 import { useNavigate } from "react-router-dom";
 
@@ -16,6 +16,11 @@ interface Iprops {
 
 const CardRestaurant:React.FC<Iprops>  = (props:Iprops)=> {
 const navigate = useNavigate()
+console.log(props.id)
+const [restId, setrestId] = useState<string | undefined>()
+useEffect (() => {
+  setrestId(props.id)
+},[restId])
 
 const handleDeleteRest = async (event:any) => {
     event.preventDefault()
@@ -50,7 +55,7 @@ const handleDeleteRest = async (event:any) => {
 
     return (
     <div className="card-rest-div">
-        <button className={`card popular-rest all-rest`} id={`rest-card ${props.id}`} onClick={() => {navigate(`/RestaurantsPage/${props.id}`);window.scrollTo(0, 0);}} >
+        <button className={`card popular-rest all-rest`} id={`rest-card ${restId}`} onClick={() => {navigate(`/RestaurantsPage/${restId}`);window.scrollTo(0, 0);}} >
             <img src={props.src} alt={props.alt} className="img-card R-popular R-all"/>
             <div className="name-popular-card">{props.restaurantName} </div>
             <div className="chef-popular-card">{props.chef}</div>

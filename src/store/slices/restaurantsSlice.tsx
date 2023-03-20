@@ -11,8 +11,8 @@ const getData = fetch("http://localhost:8000/epicure/RestaurantsPage")
     });
 
 const restaurant:any = await getData;
-const date = new Date();
-const showTime = date.getHours();
+// const date = new Date();
+// const showTime = date.getHours();
 
 export const restaurantsSlice = createSlice({
     name: "restaurants",

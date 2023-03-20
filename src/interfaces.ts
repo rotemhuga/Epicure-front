@@ -18,7 +18,7 @@ export interface Irestaurants {
 }
 
 export interface IrestaurantsValue {
-    id?:string,
+    id?:string | undefined,
     img?:string,
     alt?:string,
     name?: string,
