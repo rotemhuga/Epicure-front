@@ -80,7 +80,7 @@ export interface IdishesValue {
 
 export interface Iprops {
     class?: string,
-    id?:string,
+    id?:string | undefined ,
     src?: string,
     alt?:string,
     name?:string,
