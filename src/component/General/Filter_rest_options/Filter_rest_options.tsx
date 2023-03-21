@@ -51,7 +51,7 @@ const handleAddRest = async (event:any) => {
     map:false
   })
   setCount(prevCount => prevCount + 1);
-  window.location.href = "https://epicure-website.onrender.com/epicure/RestaurantsPage";
+  window.location.href = "https://epicure-gbvf.onrender.com/RestaurantsPage";
 }
 
   useEffect(()=> {
